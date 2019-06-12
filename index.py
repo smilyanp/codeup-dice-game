@@ -14,7 +14,7 @@ if userInput == 'y' or userInput == 'Y':
         diceNumber = diceNumber + 1
     
     # Get ascii dice image
-    path = '/Users/smilyan.pavlov/Projects/Personal/Python/codeup/ascii/%d.txt' % diceNumber
+    path = f'/Users/smilyan.pavlov/Projects/Personal/Python/codeup/ascii/{diceNumber}.txt'
     diceImage = open(path).read()
 
     # Print dice image
@@ -22,7 +22,7 @@ if userInput == 'y' or userInput == 'Y':
     print('')
 
 else:
-    
+
     print('')
     print('************')
     print('Game over!')
